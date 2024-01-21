@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  padding-right: 10rem;
+  background-color: #f5f5f5;
+}
+
+.navHeading {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.navItemsDiv {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.lotteryMainDiv {
+  width: 100%;
+  height: 100%;
+  background-color: lightgreen;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.lotteryDiv {
+  margin-bottom: 1.5rem;
+  font-size: 1.29rem;
+}
+
+.lotteryAmount{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.payBtn {
+  background-color: lightcyan;
+  border: none;
+  padding: 0.6rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.getLottery{
+    margin-bottom: 2rem;
+}
+
+.winnerBtn{
+    margin-bottom: 2rem;
+}
+
+.payBtn:hover {
+  background-color: rgb(214, 252, 252);
+}
+
+.participantsTitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.participantsDiv {
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.myAddress{
+  font-weight: 600;
+}
