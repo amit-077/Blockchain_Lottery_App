@@ -1,0 +1,1 @@
+This is a simple blockchain lottery app made using Reactjs, Solidity, Truffle and Ganache. It takes multiple users as lottery participants and chooses one user randomly as winner and gives all the ethers to that user.
